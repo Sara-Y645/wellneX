@@ -1,0 +1,2 @@
+streamlit version 1.31.1
+pandas version 2.2.2
