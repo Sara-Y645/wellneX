@@ -1,0 +1,110 @@
+{
+  "fracture": {
+    "category": "injury",
+    "severity": "variable",
+    "base_explanation": "A fracture means there is a break or crack in a bone. The seriousness depends on the bone involved and the extent of the break.",
+    "follow_up_note": "Doctors assess the type and location of the fracture to decide on appropriate management.",
+    "do_not_mention": [
+      "permanent disability",
+      "amputation"
+    ]
+  },
+
+  "compression fracture": {
+    "category": "injury",
+    "severity": "moderate",
+    "base_explanation": "A compression fracture occurs when a bone, commonly in the spine, collapses or becomes compressed.",
+    "follow_up_note": "Further evaluation helps determine stability and treatment options.",
+    "do_not_mention": [
+      "paralysis",
+      "spinal collapse"
+    ]
+  },
+
+  "disc bulge": {
+    "category": "spine",
+    "severity": "mild",
+    "base_explanation": "A disc bulge means the cushioning disc between spinal bones slightly extends beyond its usual boundary. This is a common finding and often does not cause symptoms.",
+    "follow_up_note": "Symptoms and physical examination help determine whether this finding is clinically important.",
+    "do_not_mention": [
+      "surgery",
+      "nerve damage",
+      "paralysis"
+    ]
+  },
+
+  "disc herniation": {
+    "category": "spine",
+    "severity": "moderate",
+    "base_explanation": "A disc herniation occurs when part of a spinal disc protrudes further than normal and may come into contact with nearby nerves.",
+    "follow_up_note": "Clinical symptoms help determine the significance of this finding.",
+    "do_not_mention": [
+      "inevitable surgery",
+      "permanent nerve damage"
+    ]
+  },
+
+  "degenerative disc disease": {
+    "category": "spine",
+    "severity": "mild",
+    "base_explanation": "Degenerative disc disease refers to age-related changes in spinal discs that occur gradually over time.",
+    "follow_up_note": "These changes are common and may or may not be associated with pain.",
+    "do_not_mention": [
+      "disc failure",
+      "irreversible damage"
+    ]
+  },
+
+  "spondylosis": {
+    "category": "spine",
+    "severity": "mild",
+    "base_explanation": "Spondylosis describes wear-and-tear changes in the spine, including joints and discs, commonly seen with aging.",
+    "follow_up_note": "Doctors interpret this finding along with symptoms and physical examination.",
+    "do_not_mention": [
+      "severe spinal disease"
+    ]
+  },
+
+  "osteoarthritis": {
+    "category": "joint",
+    "severity": "mild",
+    "base_explanation": "Osteoarthritis refers to gradual wear of joint cartilage over time, which is common as people age.",
+    "follow_up_note": "The degree of symptoms varies and depends on joint involvement.",
+    "do_not_mention": [
+      "joint destruction",
+      "inability to walk"
+    ]
+  },
+
+  "joint space narrowing": {
+    "category": "joint",
+    "severity": "mild",
+    "base_explanation": "Joint space narrowing means the space between joint surfaces is reduced, often due to cartilage wear.",
+    "follow_up_note": "This finding is commonly evaluated together with symptoms and movement limitations.",
+    "do_not_mention": [
+      "bone-on-bone damage"
+    ]
+  },
+
+  "osteopenia": {
+    "category": "bone density",
+    "severity": "mild",
+    "base_explanation": "Osteopenia indicates lower-than-average bone density, but not to the extent of osteoporosis.",
+    "follow_up_note": "Bone density measurements help guide further assessment if needed.",
+    "do_not_mention": [
+      "fragile bones",
+      "high fracture risk"
+    ]
+  },
+
+  "osteoporosis": {
+    "category": "bone density",
+    "severity": "moderate",
+    "base_explanation": "Osteoporosis refers to reduced bone strength, which can increase the risk of fractures.",
+    "follow_up_note": "Doctors may recommend further evaluation or tests to assess bone health.",
+    "do_not_mention": [
+      "inevitable fractures",
+      "disability"
+    ]
+  }
+}

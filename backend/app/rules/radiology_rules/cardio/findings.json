@@ -1,0 +1,107 @@
+{
+  "no acute cardiopulmonary abnormality": {
+    "category": "normal",
+    "severity": "normal",
+    "base_explanation": "This means no urgent problems involving the heart or lungs were seen on the scan at the time of imaging.",
+    "follow_up_note": "This is generally a reassuring finding.",
+    "do_not_mention": []
+  },
+
+  "mild cardiomegaly": {
+    "category": "cardiac",
+    "severity": "mild",
+    "base_explanation": "This term indicates a slightly enlarged heart size seen on imaging. On its own, it does not confirm heart disease.",
+    "follow_up_note": "Doctors may correlate this finding with symptoms or other tests if needed.",
+    "do_not_mention": [
+      "heart failure",
+      "cardiac arrest"
+    ]
+  },
+
+  "moderate cardiomegaly": {
+    "category": "cardiac",
+    "severity": "moderate",
+    "base_explanation": "This finding suggests a more noticeable increase in heart size compared to mild cardiomegaly.",
+    "follow_up_note": "Clinical evaluation helps determine the significance of this finding.",
+    "do_not_mention": [
+      "end-stage heart disease",
+      "fatal outcome"
+    ]
+  },
+
+  "pulmonary edema": {
+    "category": "pulmonary",
+    "severity": "severe",
+    "base_explanation": "Pulmonary edema refers to fluid accumulation in the lungs, which can affect breathing.",
+    "follow_up_note": "This finding usually requires prompt medical evaluation.",
+    "do_not_mention": [
+      "certain death",
+      "irreversible lung failure"
+    ]
+  },
+
+  "pleural effusion": {
+    "category": "pleural",
+    "severity": "moderate",
+    "base_explanation": "A pleural effusion means there is fluid present in the space surrounding the lungs.",
+    "follow_up_note": "The cause and significance depend on the amount of fluid and clinical context.",
+    "do_not_mention": [
+      "lung collapse",
+      "terminal condition"
+    ]
+  },
+
+  "pericardial effusion": {
+    "category": "cardiac",
+    "severity": "moderate",
+    "base_explanation": "This term refers to fluid accumulation in the sac surrounding the heart.",
+    "follow_up_note": "Further evaluation helps determine whether this finding is clinically important.",
+    "do_not_mention": [
+      "cardiac tamponade",
+      "heart failure diagnosis"
+    ]
+  },
+
+  "atelectasis": {
+    "category": "pulmonary",
+    "severity": "mild",
+    "base_explanation": "Atelectasis means a small portion of the lung is not fully expanded. This can occur due to shallow breathing or mucus blockage.",
+    "follow_up_note": "This finding is often temporary and resolves with appropriate care.",
+    "do_not_mention": [
+      "lung collapse emergency"
+    ]
+  },
+
+  "lung consolidation": {
+    "category": "pulmonary",
+    "severity": "moderate",
+    "base_explanation": "Lung consolidation refers to an area of the lung that appears denser than normal, often due to fluid, infection, or inflammation.",
+    "follow_up_note": "Doctors correlate this with symptoms and laboratory findings.",
+    "do_not_mention": [
+      "confirmed pneumonia",
+      "severe lung damage"
+    ]
+  },
+
+  "pulmonary nodule": {
+    "category": "pulmonary",
+    "severity": "variable",
+    "base_explanation": "A pulmonary nodule is a small, rounded spot seen in the lung. Many nodules are benign, especially when small.",
+    "follow_up_note": "Size, appearance, and risk factors guide further evaluation.",
+    "do_not_mention": [
+      "lung cancer diagnosis",
+      "malignancy confirmed"
+    ]
+  },
+
+  "pneumothorax": {
+    "category": "pulmonary",
+    "severity": "severe",
+    "base_explanation": "A pneumothorax means there is air in the space around the lung, which can cause part of the lung to collapse.",
+    "follow_up_note": "This finding typically requires urgent medical assessment.",
+    "do_not_mention": [
+      "certain respiratory failure",
+      "death"
+    ]
+  }
+}

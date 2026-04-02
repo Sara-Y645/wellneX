@@ -1,0 +1,122 @@
+{
+  "fasting_glucose": {
+    "unit": "mg/dL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [70, 99] },
+        "female": { "normal": [70, 99] }
+      }
+    },
+    "flags": {
+      "low": {
+        "severity": {
+          "mild": [60, 69],
+          "critical": [0, 59]
+        }
+      },
+      "high": {
+        "severity": {
+          "mild": [100, 125],
+          "critical": [126, 999]
+        }
+      }
+    }
+  },
+
+  "postprandial_glucose": {
+    "unit": "mg/dL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [0, 140] },
+        "female": { "normal": [0, 140] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "mild": [141, 199],
+          "critical": [200, 999]
+        }
+      }
+    }
+  },
+
+  "random_glucose": {
+    "unit": "mg/dL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [70, 140] },
+        "female": { "normal": [70, 140] }
+      }
+    },
+    "flags": {
+      "low": {
+        "severity": {
+          "mild": [60, 69],
+          "critical": [0, 59]
+        }
+      },
+      "high": {
+        "severity": {
+          "mild": [141, 199],
+          "critical": [200, 999]
+        }
+      }
+    }
+  },
+
+  "hba1c": {
+    "unit": "%",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [4.0, 5.6] },
+        "female": { "normal": [4.0, 5.6] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "mild": [5.7, 6.4],
+          "critical": [6.5, 20]
+        }
+      }
+    }
+  },
+
+  "insulin_fasting": {
+    "unit": "µIU/mL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [2, 25] },
+        "female": { "normal": [2, 25] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "moderate": [26, 40],
+          "critical": [41, 200]
+        }
+      }
+    }
+  },
+
+  "homa_ir": {
+    "unit": "index",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [0, 2.0] },
+        "female": { "normal": [0, 2.0] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "mild": [2.1, 2.9],
+          "moderate": [3.0, 4.9],
+          "critical": [5.0, 50]
+        }
+      }
+    }
+  }
+}

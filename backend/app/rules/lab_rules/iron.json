@@ -1,0 +1,138 @@
+{
+  "serum_iron": {
+    "unit": "µg/dL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [65, 175] },
+        "female": { "normal": [50, 170] }
+      }
+    },
+    "flags": {
+      "low": {
+        "severity": {
+          "moderate": [30, 64],
+          "critical": [0, 29]
+        }
+      },
+      "high": {
+        "severity": {
+          "moderate": [176, 200],
+          "critical": [201, 500]
+        }
+      }
+    }
+  },
+
+  "ferritin": {
+    "unit": "ng/mL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [30, 400] },
+        "female": { "normal": [15, 150] }
+      }
+    },
+    "flags": {
+      "low": {
+        "severity": {
+          "moderate": [5, 29],
+          "critical": [0, 4]
+        }
+      },
+      "high": {
+        "severity": {
+          "moderate": [401, 800],
+          "critical": [801, 3000]
+        }
+      }
+    }
+  },
+
+  "tibc": {
+    "unit": "µg/dL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [250, 450] },
+        "female": { "normal": [250, 450] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "moderate": [451, 550],
+          "critical": [551, 1000]
+        }
+      },
+      "low": {
+        "severity": {
+          "mild": [150, 249]
+        }
+      }
+    }
+  },
+
+  "transferrin": {
+    "unit": "mg/dL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [200, 360] },
+        "female": { "normal": [200, 360] }
+      }
+    },
+    "flags": {
+      "low": {
+        "severity": {
+          "moderate": [120, 199],
+          "critical": [0, 119]
+        }
+      },
+      "high": {
+        "severity": {
+          "moderate": [361, 450],
+          "critical": [451, 800]
+        }
+      }
+    }
+  },
+
+  "transferrin_saturation": {
+    "unit": "%",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [20, 50] },
+        "female": { "normal": [15, 50] }
+      }
+    },
+    "flags": {
+      "low": {
+        "severity": {
+          "moderate": [5, 19],
+          "critical": [0, 4]
+        }
+      },
+      "high": {
+        "severity": {
+          "moderate": [51, 70],
+          "critical": [71, 100]
+        }
+      }
+    }
+  },
+
+  "iron_binding_capacity": {
+    "unit": "µg/dL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [250, 450] },
+        "female": { "normal": [250, 450] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "moderate": [451, 550],
+          "critical": [551, 1000]
+        }
+      }
+    }
+  }
+}

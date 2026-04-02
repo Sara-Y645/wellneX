@@ -1,0 +1,99 @@
+{
+  "renal cyst": {
+    "category": "renal",
+    "severity": "mild",
+    "base_explanation": "A renal cyst is a fluid-filled sac within the kidney. Simple cysts are common and usually benign.",
+    "follow_up_note": "Further evaluation depends on size, appearance, and symptoms.",
+    "do_not_mention": [
+      "kidney cancer"
+    ]
+  },
+
+  "multiple renal cysts": {
+    "category": "renal",
+    "severity": "moderate",
+    "base_explanation": "This finding indicates more than one cyst is present in the kidneys.",
+    "follow_up_note": "Doctors assess whether this is an age-related change or part of a broader condition.",
+    "do_not_mention": [
+      "renal failure diagnosis"
+    ]
+  },
+
+  "hydronephrosis": {
+    "category": "urinary",
+    "severity": "moderate",
+    "base_explanation": "Hydronephrosis refers to dilation of the kidney due to buildup of urine.",
+    "follow_up_note": "Further evaluation helps determine whether there is an obstruction.",
+    "do_not_mention": [
+      "permanent kidney damage"
+    ]
+  },
+
+  "renal calculi": {
+    "category": "urinary",
+    "severity": "mild",
+    "base_explanation": "Renal calculi are stones within the kidney. Some stones may not cause symptoms.",
+    "follow_up_note": "Stone size and symptoms guide management decisions.",
+    "do_not_mention": [
+      "inevitable surgery"
+    ]
+  },
+
+  "ureteric calculus": {
+    "category": "urinary",
+    "severity": "moderate",
+    "base_explanation": "A ureteric calculus is a stone located in the tube that carries urine from the kidney to the bladder.",
+    "follow_up_note": "Symptoms and imaging findings help guide further care.",
+    "do_not_mention": [
+      "kidney shutdown"
+    ]
+  },
+
+  "pelvicalyceal dilatation": {
+    "category": "urinary",
+    "severity": "mild",
+    "base_explanation": "This means the urine-collecting areas of the kidney appear mildly enlarged.",
+    "follow_up_note": "Doctors correlate this with symptoms and other imaging findings.",
+    "do_not_mention": [
+      "renal failure"
+    ]
+  },
+
+  "renal scarring": {
+    "category": "renal",
+    "severity": "moderate",
+    "base_explanation": "Renal scarring indicates areas of the kidney that have healed after past injury or infection.",
+    "follow_up_note": "Clinical history helps determine relevance.",
+    "do_not_mention": [
+      "progressive kidney loss"
+    ]
+  },
+
+  "cortical thinning": {
+    "category": "renal",
+    "severity": "moderate",
+    "base_explanation": "Cortical thinning means the outer layer of the kidney appears thinner than usual.",
+    "follow_up_note": "This finding is interpreted alongside kidney function tests.",
+    "do_not_mention": [
+      "end-stage kidney disease"
+    ]
+  },
+
+  "bladder wall thickening": {
+    "category": "bladder",
+    "severity": "moderate",
+    "base_explanation": "This means the bladder wall appears thicker than normal on imaging.",
+    "follow_up_note": "Symptoms and urine tests help determine the cause.",
+    "do_not_mention": [
+      "bladder cancer diagnosis"
+    ]
+  },
+
+  "no renal abnormality detected": {
+    "category": "normal",
+    "severity": "normal",
+    "base_explanation": "This means no significant abnormalities were identified in the kidneys on imaging.",
+    "follow_up_note": "This is generally a reassuring finding.",
+    "do_not_mention": []
+  }
+}

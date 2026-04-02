@@ -1,0 +1,101 @@
+{
+  "fatty liver": {
+    "category": "hepatic",
+    "severity": "mild",
+    "base_explanation": "Fatty liver means there is increased fat within the liver. This is a common finding and can be related to diet, weight, or metabolic factors.",
+    "follow_up_note": "Doctors may correlate this with blood tests and lifestyle factors.",
+    "do_not_mention": [
+      "liver failure",
+      "cirrhosis diagnosis"
+    ]
+  },
+
+  "hepatomegaly": {
+    "category": "hepatic",
+    "severity": "moderate",
+    "base_explanation": "Hepatomegaly means the liver appears larger than normal on imaging.",
+    "follow_up_note": "The cause varies and is interpreted together with clinical history and lab results.",
+    "do_not_mention": [
+      "severe liver disease",
+      "irreversible damage"
+    ]
+  },
+
+  "splenomegaly": {
+    "category": "splenic",
+    "severity": "moderate",
+    "base_explanation": "Splenomegaly refers to an enlarged spleen seen on imaging.",
+    "follow_up_note": "Doctors evaluate this finding in the context of blood tests and symptoms.",
+    "do_not_mention": [
+      "life-threatening condition"
+    ]
+  },
+
+  "gallstones": {
+    "category": "biliary",
+    "severity": "mild",
+    "base_explanation": "Gallstones are solid deposits that form in the gallbladder. Many people have gallstones without symptoms.",
+    "follow_up_note": "Symptoms help determine whether this finding is clinically important.",
+    "do_not_mention": [
+      "emergency surgery"
+    ]
+  },
+
+  "gallbladder wall thickening": {
+    "category": "biliary",
+    "severity": "moderate",
+    "base_explanation": "This finding means the wall of the gallbladder appears thicker than normal, which can occur for various reasons.",
+    "follow_up_note": "Clinical symptoms and blood tests help determine significance.",
+    "do_not_mention": [
+      "gallbladder cancer"
+    ]
+  },
+
+  "ascites": {
+    "category": "peritoneal",
+    "severity": "moderate",
+    "base_explanation": "Ascites refers to the presence of fluid within the abdominal cavity.",
+    "follow_up_note": "The cause and amount of fluid guide further evaluation.",
+    "do_not_mention": [
+      "terminal illness"
+    ]
+  },
+
+  "bowel wall thickening": {
+    "category": "intestinal",
+    "severity": "moderate",
+    "base_explanation": "Bowel wall thickening means part of the intestine appears thicker than usual on imaging.",
+    "follow_up_note": "Doctors interpret this together with symptoms and lab findings.",
+    "do_not_mention": [
+      "bowel cancer diagnosis"
+    ]
+  },
+
+  "dilated bowel loops": {
+    "category": "intestinal",
+    "severity": "moderate",
+    "base_explanation": "Dilated bowel loops indicate that sections of the intestine appear wider than normal.",
+    "follow_up_note": "This finding is evaluated alongside symptoms such as pain or vomiting.",
+    "do_not_mention": [
+      "intestinal rupture"
+    ]
+  },
+
+  "liver cyst": {
+    "category": "hepatic",
+    "severity": "mild",
+    "base_explanation": "A liver cyst is a fluid-filled sac within the liver. Most liver cysts are benign and incidental.",
+    "follow_up_note": "Further evaluation is usually only needed if symptoms are present.",
+    "do_not_mention": [
+      "liver cancer"
+    ]
+  },
+
+  "normal abdominal scan": {
+    "category": "normal",
+    "severity": "normal",
+    "base_explanation": "This means no significant abnormalities were identified in the abdomen on imaging.",
+    "follow_up_note": "This is generally a reassuring result.",
+    "do_not_mention": []
+  }
+}

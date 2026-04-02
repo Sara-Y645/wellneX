@@ -1,0 +1,106 @@
+{
+  "normal uterus and ovaries": {
+    "category": "normal",
+    "severity": "normal",
+    "base_explanation": "This means the uterus and ovaries appear normal in size and structure on imaging.",
+    "follow_up_note": "This is a reassuring finding.",
+    "do_not_mention": []
+  },
+
+  "uterine fibroid": {
+    "category": "uterine",
+    "severity": "mild",
+    "base_explanation": "A uterine fibroid is a common, non-cancerous growth of the uterus muscle.",
+    "follow_up_note": "The impact of fibroids depends on their size, number, and location.",
+    "do_not_mention": [
+      "infertility",
+      "cancer",
+      "mandatory surgery"
+    ]
+  },
+
+  "simple ovarian cyst": {
+    "category": "ovarian",
+    "severity": "mild",
+    "base_explanation": "A simple ovarian cyst is a fluid-filled sac in the ovary and is commonly seen during reproductive years.",
+    "follow_up_note": "Many simple cysts resolve on their own without treatment.",
+    "do_not_mention": [
+      "ovarian cancer",
+      "infertility"
+    ]
+  },
+
+  "complex ovarian cyst": {
+    "category": "ovarian",
+    "severity": "moderate",
+    "base_explanation": "A complex ovarian cyst contains both fluid and solid components, which may require closer evaluation.",
+    "follow_up_note": "Doctors consider size, appearance, and symptoms when deciding next steps.",
+    "do_not_mention": [
+      "cancer diagnosis",
+      "loss of fertility"
+    ]
+  },
+
+  "polycystic ovaries": {
+    "category": "ovarian",
+    "severity": "mild",
+    "base_explanation": "Polycystic ovaries describe the appearance of multiple small follicles in the ovaries on imaging.",
+    "follow_up_note": "This imaging finding alone does not diagnose a hormonal condition.",
+    "do_not_mention": [
+      "pcos diagnosis",
+      "infertility"
+    ]
+  },
+
+  "endometrial thickening": {
+    "category": "uterine",
+    "severity": "moderate",
+    "base_explanation": "Endometrial thickening means the lining of the uterus appears thicker than usual.",
+    "follow_up_note": "Normal thickness varies with age and menstrual cycle phase.",
+    "do_not_mention": [
+      "uterine cancer",
+      "precancer"
+    ]
+  },
+
+  "endometrial thinning": {
+    "category": "uterine",
+    "severity": "mild",
+    "base_explanation": "Endometrial thinning means the uterine lining appears thinner than average.",
+    "follow_up_note": "This may be normal depending on age or hormonal status.",
+    "do_not_mention": [
+      "infertility",
+      "hormonal failure"
+    ]
+  },
+
+  "adenomyosis": {
+    "category": "uterine",
+    "severity": "moderate",
+    "base_explanation": "Adenomyosis is a condition where uterine tissue grows into the muscle wall of the uterus.",
+    "follow_up_note": "Symptoms vary, and imaging findings are interpreted with clinical history.",
+    "do_not_mention": [
+      "hysterectomy required",
+      "cancer"
+    ]
+  },
+
+  "pelvic free fluid": {
+    "category": "pelvic",
+    "severity": "mild",
+    "base_explanation": "Pelvic free fluid refers to a small amount of fluid seen in the pelvic cavity.",
+    "follow_up_note": "This can be a normal finding depending on timing in the menstrual cycle.",
+    "do_not_mention": [
+      "internal bleeding",
+      "emergency condition"
+    ]
+  },
+
+  "ovarian follicle": {
+    "category": "ovarian",
+    "severity": "normal",
+    "base_explanation": "An ovarian follicle is a normal structure involved in the menstrual cycle.",
+    "follow_up_note": "This is a physiological and expected finding.",
+    "do_not_mention": []
+  }
+}

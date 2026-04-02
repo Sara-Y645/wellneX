@@ -1,0 +1,110 @@
+{
+  "no acute intracranial abnormality": {
+    "category": "normal",
+    "severity": "normal",
+    "base_explanation": "This means that no urgent problems such as bleeding, stroke, or major injury were seen in the brain at the time of the scan.",
+    "follow_up_note": "This is generally a reassuring finding.",
+    "do_not_mention": []
+  },
+
+  "mild cerebral atrophy": {
+    "category": "degenerative",
+    "severity": "mild",
+    "base_explanation": "This term means there is a small reduction in brain volume. It is commonly seen with aging and does not automatically indicate a serious condition.",
+    "follow_up_note": "A doctor may consider symptoms and medical history to decide if further evaluation is needed.",
+    "do_not_mention": [
+      "alzheimer",
+      "dementia",
+      "brain damage",
+      "paralysis"
+    ]
+  },
+
+  "moderate cerebral atrophy": {
+    "category": "degenerative",
+    "severity": "moderate",
+    "base_explanation": "This finding indicates a more noticeable reduction in brain volume than mild atrophy. It can be associated with aging or chronic neurological conditions.",
+    "follow_up_note": "Clinical correlation helps determine whether this finding is related to symptoms.",
+    "do_not_mention": [
+      "advanced dementia",
+      "irreversible brain damage"
+    ]
+  },
+
+  "white matter changes": {
+    "category": "vascular",
+    "severity": "mild",
+    "base_explanation": "White matter changes refer to small areas in the brain where long-term blood flow changes may have occurred. These findings are common, especially with increasing age.",
+    "follow_up_note": "Doctors often interpret this together with factors such as blood pressure and diabetes.",
+    "do_not_mention": [
+      "stroke damage",
+      "permanent brain injury"
+    ]
+  },
+
+  "chronic small vessel ischemic changes": {
+    "category": "vascular",
+    "severity": "moderate",
+    "base_explanation": "This term describes long-standing changes in small blood vessels of the brain, often related to aging or vascular risk factors.",
+    "follow_up_note": "Management usually focuses on controlling risk factors rather than treating the scan finding itself.",
+    "do_not_mention": [
+      "acute stroke",
+      "brain failure"
+    ]
+  },
+
+  "old infarct": {
+    "category": "vascular",
+    "severity": "moderate",
+    "base_explanation": "An old infarct indicates an area of the brain that was affected by reduced blood flow in the past. This does not represent a recent event.",
+    "follow_up_note": "Doctors consider history and symptoms to determine its relevance.",
+    "do_not_mention": [
+      "recent stroke",
+      "ongoing brain damage"
+    ]
+  },
+
+  "acute infarct": {
+    "category": "vascular",
+    "severity": "severe",
+    "base_explanation": "An acute infarct refers to a recent area of reduced blood flow in the brain that requires prompt medical attention.",
+    "follow_up_note": "Immediate evaluation by healthcare professionals is important.",
+    "do_not_mention": [
+      "guaranteed paralysis",
+      "fatal outcome"
+    ]
+  },
+
+  "intracranial hemorrhage": {
+    "category": "vascular",
+    "severity": "severe",
+    "base_explanation": "This term means there is bleeding within the skull. The significance depends on the location and amount of bleeding.",
+    "follow_up_note": "This finding usually requires urgent medical evaluation.",
+    "do_not_mention": [
+      "certain death",
+      "irreversible brain damage"
+    ]
+  },
+
+  "hydrocephalus": {
+    "category": "csf",
+    "severity": "moderate",
+    "base_explanation": "Hydrocephalus refers to an increased amount of fluid within the brain spaces, which can place pressure on brain tissue.",
+    "follow_up_note": "Further evaluation helps determine the cause and clinical significance.",
+    "do_not_mention": [
+      "inevitable surgery",
+      "brain failure"
+    ]
+  },
+
+  "mass lesion": {
+    "category": "structural",
+    "severity": "variable",
+    "base_explanation": "A mass lesion refers to an abnormal area seen in the brain that occupies space. The exact nature of this finding depends on further evaluation.",
+    "follow_up_note": "Additional tests are often needed to understand the cause.",
+    "do_not_mention": [
+      "cancer diagnosis",
+      "malignant tumor"
+    ]
+  }
+}

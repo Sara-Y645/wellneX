@@ -1,0 +1,147 @@
+{
+  "total_cholesterol": {
+    "unit": "mg/dL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [0, 200] },
+        "female": { "normal": [0, 200] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "mild": [201, 239],
+          "critical": [240, 999]
+        }
+      }
+    }
+  },
+
+  "ldl": {
+    "unit": "mg/dL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [0, 100] },
+        "female": { "normal": [0, 100] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "mild": [101, 159],
+          "moderate": [160, 189],
+          "critical": [190, 999]
+        }
+      }
+    }
+  },
+
+  "hdl": {
+    "unit": "mg/dL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [40, 999] },
+        "female": { "normal": [50, 999] }
+      }
+    },
+    "flags": {
+      "low": {
+        "severity": {
+          "moderate": [30, 39],
+          "critical": [0, 29]
+        }
+      }
+    }
+  },
+
+  "triglycerides": {
+    "unit": "mg/dL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [0, 150] },
+        "female": { "normal": [0, 150] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "mild": [151, 199],
+          "moderate": [200, 499],
+          "critical": [500, 999]
+        }
+      }
+    }
+  },
+
+  "vldl": {
+    "unit": "mg/dL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [5, 40] },
+        "female": { "normal": [5, 40] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "mild": [41, 60],
+          "critical": [61, 200]
+        }
+      }
+    }
+  },
+
+  "non_hdl": {
+    "unit": "mg/dL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [0, 130] },
+        "female": { "normal": [0, 130] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "moderate": [131, 189],
+          "critical": [190, 999]
+        }
+      }
+    }
+  },
+
+  "cholesterol_hdl_ratio": {
+    "unit": "ratio",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [0, 5.0] },
+        "female": { "normal": [0, 4.5] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "moderate": [5.1, 7.0],
+          "critical": [7.1, 20]
+        }
+      }
+    }
+  },
+
+  "ldl_hdl_ratio": {
+    "unit": "ratio",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [0, 3.5] },
+        "female": { "normal": [0, 3.0] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "moderate": [3.6, 5.0],
+          "critical": [5.1, 20]
+        }
+      }
+    }
+  }
+}

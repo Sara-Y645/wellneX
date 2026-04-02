@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  :root {
+    /* WELLNEX Health Theme - Light Mode */
+    --background: 40 33% 98%;
+    --foreground: 210 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 25% 15%;
+
+    /* Teal primary - calming medical */
+    --primary: 174 62% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Soft sage secondary */
+    --secondary: 150 25% 94%;
+    --secondary-foreground: 174 62% 30%;
+
+    --muted: 40 20% 95%;
+    --muted-foreground: 210 15% 45%;
+
+    --accent: 174 45% 92%;
+    --accent-foreground: 174 62% 30%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 40 20% 90%;
+    --input: 40 20% 90%;
+    --ring: 174 62% 40%;
+
+    --radius: 0.75rem;
+
+    /* Status Colors */
+    --status-good: 152 69% 40%;
+    --status-good-bg: 152 69% 95%;
+    --status-moderate: 38 92% 50%;
+    --status-moderate-bg: 38 92% 95%;
+    --status-high: 0 72% 51%;
+    --status-high-bg: 0 72% 96%;
+    --status-low: 217 91% 60%;
+    --status-low-bg: 217 91% 96%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(174 62% 40%), hsl(174 62% 50%));
+    --gradient-hero: linear-gradient(180deg, hsl(40 33% 98%) 0%, hsl(174 45% 96%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(40 20% 99%) 100%);
+    --gradient-good: linear-gradient(135deg, hsl(152 69% 45%) 0%, hsl(152 69% 55%) 100%);
+    --gradient-moderate: linear-gradient(135deg, hsl(38 92% 50%) 0%, hsl(38 92% 60%) 100%);
+    --gradient-high: linear-gradient(135deg, hsl(0 72% 51%) 0%, hsl(0 72% 60%) 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(210 25% 15% / 0.03);
+    --shadow-md: 0 4px 6px -1px hsl(210 25% 15% / 0.05), 0 2px 4px -2px hsl(210 25% 15% / 0.03);
+    --shadow-lg: 0 10px 15px -3px hsl(210 25% 15% / 0.08), 0 4px 6px -4px hsl(210 25% 15% / 0.03);
+    --shadow-card: 0 4px 20px -4px hsl(174 62% 40% / 0.08);
+    --shadow-elevated: 0 20px 40px -8px hsl(174 62% 40% / 0.12);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* WELLNEX Health Theme - Dark Mode */
+    --background: 215 28% 10%;
+    --foreground: 40 20% 95%;
+
+    --card: 215 25% 13%;
+    --card-foreground: 40 20% 95%;
+
+    --popover: 215 25% 13%;
+    --popover-foreground: 40 20% 95%;
+
+    --primary: 174 62% 50%;
+    --primary-foreground: 215 28% 10%;
+
+    --secondary: 215 20% 18%;
+    --secondary-foreground: 174 62% 60%;
+
+    --muted: 215 20% 18%;
+    --muted-foreground: 40 15% 60%;
+
+    --accent: 215 20% 20%;
+    --accent-foreground: 174 62% 60%;
+
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 215 20% 20%;
+    --input: 215 20% 20%;
+    --ring: 174 62% 50%;
+
+    /* Dark mode status colors */
+    --status-good: 152 69% 50%;
+    --status-good-bg: 152 30% 15%;
+    --status-moderate: 38 92% 55%;
+    --status-moderate-bg: 38 40% 15%;
+    --status-high: 0 72% 55%;
+    --status-high-bg: 0 40% 15%;
+    --status-low: 217 91% 65%;
+    --status-low-bg: 217 40% 15%;
+
+    --gradient-hero: linear-gradient(180deg, hsl(215 28% 10%) 0%, hsl(215 25% 13%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(215 25% 14%) 0%, hsl(215 25% 12%) 100%);
+
+    --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.3);
+    --shadow-elevated: 0 20px 40px -8px hsl(0 0% 0% / 0.4);
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .gradient-card {
+    background: var(--gradient-card);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse-soft {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.3s ease-out forwards;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Staggered animations */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }

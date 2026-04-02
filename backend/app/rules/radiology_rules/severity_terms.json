@@ -1,0 +1,17 @@
+{
+  "mild": {
+    "risk_level": "low",
+    "tone": "reassuring",
+    "description": "A mild finding usually indicates a small or early change that often does not cause serious problems on its own."
+  },
+  "moderate": {
+    "risk_level": "medium",
+    "tone": "neutral",
+    "description": "A moderate finding suggests a noticeable change that may need clinical correlation."
+  },
+  "severe": {
+    "risk_level": "high",
+    "tone": "serious",
+    "description": "A severe finding indicates a significant abnormality that typically requires medical attention."
+  }
+}

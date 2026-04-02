@@ -1,0 +1,75 @@
+{
+  "crp": {
+    "unit": "mg/L",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [0, 5] },
+        "female": { "normal": [0, 5] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "mild": [6, 10],
+          "moderate": [11, 50],
+          "critical": [51, 500]
+        }
+      }
+    }
+  },
+
+  "esr": {
+    "unit": "mm/hr",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [0, 15] },
+        "female": { "normal": [0, 20] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "mild": [16, 30],
+          "moderate": [31, 60],
+          "critical": [61, 200]
+        }
+      }
+    }
+  },
+
+  "procalcitonin": {
+    "unit": "ng/mL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [0, 0.05] },
+        "female": { "normal": [0, 0.05] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "moderate": [0.06, 0.5],
+          "critical": [0.51, 100]
+        }
+      }
+    }
+  },
+
+  "d_dimer": {
+    "unit": "ng/mL",
+    "ranges": {
+      "adult": {
+        "male": { "normal": [0, 500] },
+        "female": { "normal": [0, 500] }
+      }
+    },
+    "flags": {
+      "high": {
+        "severity": {
+          "moderate": [501, 1000],
+          "critical": [1001, 100000]
+        }
+      }
+    }
+  }
+}

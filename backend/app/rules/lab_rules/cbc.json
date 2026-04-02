@@ -1,0 +1,242 @@
+{
+  "hemoglobin": {
+    "unit": "g/dL",
+    "ranges": {
+      "child": {
+        "male": { "normal": [11.0, 16.0] },
+        "female": { "normal": [11.0, 16.0] }
+      },
+      "adult": {
+        "male": { "normal": [13.5, 17.5] },
+        "female": { "normal": [12.0, 15.5] }
+      },
+      "elderly": {
+        "male": { "normal": [13.0, 17.0] },
+        "female": { "normal": [12.0, 15.0] }
+      }
+    },
+    "flags": {
+      "low": {
+        "severity": {
+          "mild": [10.0, 11.9],
+          "moderate": [7.0, 9.9],
+          "severe": ["< 7.0"]
+        }
+      },
+      "high": {
+        "severity": {
+          "elevated": [15.6, 18.5],
+          "critical": ["> 18.5"]
+        }
+      }
+    }
+  },
+
+  "wbc": {
+    "unit": "x10^9/L",
+    "ranges": {
+      "child": {
+        "male": { "normal": [5.0, 15.0] },
+        "female": { "normal": [5.0, 15.0] }
+      },
+      "adult": {
+        "male": { "normal": [4.0, 11.0] },
+        "female": { "normal": [4.0, 11.0] }
+      },
+      "elderly": {
+        "male": { "normal": [4.0, 11.0] },
+        "female": { "normal": [4.0, 11.0] }
+      }
+    },
+    "flags": {
+      "low": {
+        "severity": {
+          "mild": [3.0, 3.9],
+          "moderate": [2.0, 2.9],
+          "severe": ["< 2.0"]
+        }
+      },
+      "high": {
+        "severity": {
+          "elevated": [11.1, 15.0],
+          "critical": ["> 15.0"]
+        }
+      }
+    }
+  },
+
+  "platelets": {
+    "unit": "x10^9/L",
+    "ranges": {
+      "child": {
+        "male": { "normal": [150, 450] },
+        "female": { "normal": [150, 450] }
+      },
+      "adult": {
+        "male": { "normal": [150, 450] },
+        "female": { "normal": [150, 450] }
+      },
+      "elderly": {
+        "male": { "normal": [150, 450] },
+        "female": { "normal": [150, 450] }
+      }
+    },
+    "flags": {
+      "low": {
+        "severity": {
+          "mild": [100, 149],
+          "moderate": [50, 99],
+          "severe": ["< 50"]
+        }
+      },
+      "high": {
+        "severity": {
+          "elevated": [451, 600],
+          "critical": ["> 600"]
+        }
+      }
+    }
+  },
+
+  "rbc": {
+  "unit": "x10^12/L",
+  "ranges": {
+    "child": {
+      "male": { "normal": [4.0, 5.5] },
+      "female": { "normal": [4.0, 5.5] }
+    },
+    "adult": {
+      "male": { "normal": [4.7, 6.1] },
+      "female": { "normal": [4.2, 5.4] }
+    },
+    "elderly": {
+      "male": { "normal": [4.5, 6.0] },
+      "female": { "normal": [4.1, 5.2] }
+    }
+  },
+  "flags": {
+    "low": {
+      "severity": {
+        "mild": [3.5, 3.9],
+        "moderate": [2.5, 3.4],
+        "severe": ["< 2.5"]
+      }
+    },
+    "high": {
+      "severity": {
+        "elevated": [6.2, 6.8],
+        "critical": ["> 6.8"]
+      }
+    }
+  }
+},
+
+"hematocrit": {
+  "unit": "%",
+  "ranges": {
+    "adult": {
+      "male": { "normal": [41, 53] },
+      "female": { "normal": [36, 46] }
+    }
+  },
+  "flags": {
+    "low": {
+      "severity": {
+        "mild": [30, 35],
+        "moderate": [20, 29],
+        "severe": ["< 20"]
+      }
+    },
+    "high": {
+      "severity": {
+        "elevated": [54, 60],
+        "critical": ["> 60"]
+      }
+    }
+  }
+},
+
+"mcv": {
+  "unit": "fL",
+  "ranges": {
+    "adult": {
+      "male": { "normal": [80, 100] },
+      "female": { "normal": [80, 100] }
+    }
+  },
+  "flags": {
+    "low": {
+      "severity": {
+        "microcytic": ["< 80"]
+      }
+    },
+    "high": {
+      "severity": {
+        "macrocytic": ["> 100"]
+      }
+    }
+  }
+},
+
+"mch": {
+  "unit": "pg",
+  "ranges": {
+    "adult": {
+      "male": { "normal": [27, 33] },
+      "female": { "normal": [27, 33] }
+    }
+  },
+  "flags": {
+    "low": {
+      "severity": {
+        "low": ["< 27"]
+      }
+    },
+    "high": {
+      "severity": {
+        "high": ["> 33"]
+      }
+    }
+  }
+},
+
+"mchc": {
+  "unit": "g/dL",
+  "ranges": {
+    "adult": {
+      "male": { "normal": [32, 36] },
+      "female": { "normal": [32, 36] }
+    }
+  },
+  "flags": {
+    "low": {
+      "severity": {
+        "low": ["< 32"]
+      }
+    },
+    "high": {
+      "severity": {
+        "high": ["> 36"]
+      }
+    }
+  }
+},
+
+"rdw": {
+  "unit": "%",
+  "ranges": {
+    "adult": {
+      "male": { "normal": [11.5, 14.5] },
+      "female": { "normal": [11.5, 14.5] }
+    }
+  },
+  "flags": {
+    "high": {
+      "severity": {
+        "elevated": ["> 14.5"]
+      }
+    }
+  }
+}
+  
+}

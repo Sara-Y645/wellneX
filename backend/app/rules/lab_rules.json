@@ -1,0 +1,98 @@
+{
+  "hemoglobin": {
+    "unit": "g/dL",
+    "ranges": {
+      "child": {
+        "male": { "normal": [11.0, 16.0] },
+        "female": { "normal": [11.0, 16.0] }
+      },
+      "adult": {
+        "male": { "normal": [13.5, 17.5] },
+        "female": { "normal": [12.0, 15.5] }
+      },
+      "elderly": {
+        "male": { "normal": [13.0, 17.0] },
+        "female": { "normal": [12.0, 15.0] }
+      }
+    },
+    "flags": {
+      "low": {
+        "severity": {
+          "mild": [10.0, 11.9],
+          "moderate": [7.0, 9.9],
+          "severe": ["< 7.0"]
+        }
+      },
+      "high": {
+        "severity": {
+          "elevated": [15.6, 18.5],
+          "critical": ["> 18.5"]
+        }
+      }
+    }
+  },
+  "wbc": {
+    "unit": "x10^9/L",
+    "ranges": {
+      "child": {
+        "male": { "normal": [5.0, 15.0] },
+        "female": { "normal": [5.0, 15.0] }
+      },
+      "adult": {
+        "male": { "normal": [4.0, 11.0] },
+        "female": { "normal": [4.0, 11.0] }
+      },
+      "elderly": {
+        "male": { "normal": [4.0, 11.0] },
+        "female": { "normal": [4.0, 11.0] }
+      }
+    },
+    "flags": {
+      "low": {
+        "severity": {
+          "mild": [3.0, 3.9],
+          "moderate": [2.0, 2.9],
+          "severe": ["< 2.0"]
+        }
+      },
+      "high": {
+        "severity": {
+          "elevated": [11.1, 15.0],
+          "critical": ["> 15.0"]
+        }
+      }
+    }
+  },
+  "platelets": {
+    "unit": "x10^9/L",
+    "ranges": {
+      "child": {
+        "male": { "normal": [150, 450] },
+        "female": { "normal": [150, 450] }
+      },
+      "adult": {
+        "male": { "normal": [150, 450] },
+        "female": { "normal": [150, 450] }
+      },
+      "elderly": {
+        "male": { "normal": [150, 450] },
+        "female": { "normal": [150, 450] }
+      }
+    },
+    "flags": {
+      "low": {
+        "severity": {
+          "mild": [100, 149],
+          "moderate": [50, 99],
+          "severe": ["< 50"]
+        }
+      },
+      "high": {
+        "severity": {
+          "elevated": [451, 600],
+          "critical": ["> 600"]
+        }
+      }
+    }
+  }
+}
